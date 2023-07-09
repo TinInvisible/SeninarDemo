@@ -1,3 +1,3 @@
 # SeninarDemo
 
-Using Eclise for easier coding
+Use Eclipse for easier coding
