@@ -1,0 +1,20 @@
+package StepDefinitions;
+
+import org.junit.runner.RunWith;
+import io.cucumber.junit.Cucumber;
+import io.cucumber.junit.CucumberOptions;
+
+
+@RunWith(Cucumber.class)
+@CucumberOptions(features="src/test/resources/FeaturesTest/TestOHRM_AddEmp.feature", 
+glue={"StepDefinitions/TestOHRM_AddEmp.java"}, 
+monochrome= true,
+plugin = {"pretty", "junit:target/JUnitReports/report.xml",
+		"json:target/JSONReports/report.json",
+		"html:target/HtmlReports",
+		"pdf:target/Report.pdf"}
+)
+
+public class Main {
+
+}

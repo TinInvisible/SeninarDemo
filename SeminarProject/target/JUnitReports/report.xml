@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Cucumber" time="25.516" tests="1" skipped="0" failures="1" errors="0">
+<testcase classname="feature to test add employee functionally" name="Add new employee - Example #1.1" time="25.298">
+<failure type="io.cucumber.java.PendingException" message="TODO: implement me">
+<![CDATA[io.cucumber.java.PendingException: TODO: implement me
+	at StepDefinitions.TestOHRM_AddEmp.the_name_is_change_and_the_other_names_is_not_change(TestOHRM_AddEmp.java:121)
+	at ✽.new employee is added with the id likes [emp_id](file:///D:/Baitap/Tester/Project%20Seminar/Demo/FinalSeminar/SeminarProject/src/test/resources/FeaturesTest/TestOHRM_AddEmp.feature:11)
+]]>
+</failure>
+<system-out><![CDATA[
+Given browser window is open................................................passed
+And user is on OrangeHRM, PIM page..........................................passed
+When user clicks Add button.................................................passed
+When user enters Yen, Thi, Nguyen...........................................passed
+And hits Save...............................................................passed
+Then new employee is added with the id likes [emp_id].......................pending
+]]></system-out>
+</testcase>
+</testsuite>

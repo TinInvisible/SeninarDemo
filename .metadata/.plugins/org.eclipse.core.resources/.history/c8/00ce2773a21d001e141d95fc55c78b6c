@@ -1,0 +1,8 @@
+Feature: feature to test edit profile functionally
+
+  Scenario: Validate editting profile is working
+    Given browser window is open
+    And user is on OrangeHRM, editting profile page
+    When user enters a new name
+    And hits edit
+    Then the name is change and the other names is not change

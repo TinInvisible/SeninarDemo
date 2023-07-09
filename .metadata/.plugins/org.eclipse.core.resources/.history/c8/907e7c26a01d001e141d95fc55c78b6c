@@ -1,0 +1,12 @@
+Feature: Testing google searching bars
+
+Scenario: Test searching of google
+	Given browser is open
+	And user is on google searching page
+	When user enter something
+	And hits enter on keyboard
+	Then the browser is navigated to searching result page
+	
+	
+	
+	

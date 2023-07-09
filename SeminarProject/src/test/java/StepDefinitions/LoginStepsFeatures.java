@@ -1,0 +1,27 @@
+//package StepDefinitions;
+//
+//import io.cucumber.java.en.Given;
+//import io.cucumber.java.en.Then;
+//import io.cucumber.java.en.When;
+//
+//public class LoginStepsFeatures {
+//	@Given("user is on login page")
+//	public void user_is_on_login_page() {
+//		System.out.println("Enter login page");
+//	}
+//
+//	@When("user is enter username and password")
+//	public void user_is_enter_username_and_password() {
+//		System.out.println("Input username and password");
+//	}
+//
+//	@When("hits login button")
+//	public void hits_login_button() {
+//		System.out.println("Hit login button");
+//	}
+//
+//	@Then("user is navigated to home page")
+//	public void user_is_navigated_to_home_page() {
+//		System.out.println("Successfully Login!!! Navigated to home page");
+//	}
+//}

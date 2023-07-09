@@ -1,0 +1,32 @@
+package StepDefinitions;
+
+import io.cucumber.java.en.Given;
+import io.cucumber.java.en.Then;
+import io.cucumber.java.en.When;
+
+public class GoogleSearchingBar {
+	@Given("browser is open")
+	public void browser_is_open() {
+
+	}
+
+	@Given("user is on google searching page")
+	public void user_is_on_google_searching_page() {
+	    
+	}
+
+	@When("user enter something")
+	public void user_enter_something() {
+	  
+	}
+
+	@When("hits enter on keyboard")
+	public void hits_enter_on_keyboard() {
+	
+	}
+
+	@Then("the browser is navigated to searching result page")
+	public void the_browser_is_navigated_to_searching_result_page() {
+	
+	}
+}
